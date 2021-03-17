@@ -1,9 +1,9 @@
 # Curated_Covid_CT
-We built a **large lung CT scan** dataset for **COVID-19** by **curating data from 7 public datasets** listed in the references. These datasets have been publicly used in COVID-19 diagnosis literature and proven their efficiency in deep learning applications. Therefore, the merged dataset is expected to improve the generalization ability of deep learning methods by learning from all these resources together. 
+We built a **large lung CT scan** dataset for **COVID-19** by **curating data from 7 public datasets** listed in the references. These datasets have been publicly used in COVID-19 diagnosis literature and proven their efficiency in deep learning applications. Therefore, the merged dataset is expected to improve the **generalization ability of deep learning** methods by learning from all these resources together. 
 
-To ensure the dataset quality, we have removed the closed lung normal slices that do not carry information about inside lung manifestations. Additionally, we did not include images lacking clear class labels or patient information. In total, we have gathered 7,593 COVID-19 images from 466 patients, 6,893 normal images from 604 patients, and 2,618 CAP images from 60 patients. All of our CAP images are from Afshar et al. dataset, in which 25 cases are already annotated. Our radiologist has annotated the remaining 35 CT scan volumes. This is the largest COVID-19 lung CT dataset so far, to the best of our knowledge. 
+To ensure the dataset quality, we have removed the closed lung normal slices that do not carry information about inside lung manifestations. Additionally, we did not include images lacking clear class labels or patient information. In total, we have gathered **7,593 COVID-19 images** from **466 patients**, 6,893 normal images from 604 patients, and 2,618 CAP images from 60 patients. All of our CAP images are from Afshar et al. dataset, in which 25 cases are already annotated. Our radiologist has annotated the remaining 35 CT scan volumes. This is the largest COVID-19 lung CT dataset so far, to the best of our knowledge. 
 
-The number of frames from each class and available metadata in each dataset are summarized in the following Table. NA stands for not available, and Missing is available but with missing values. 
+The number of frames for the COVID-19 and Normal classes and available metadata in each dataset are summarized in the following Table. NA stands for not available, and Missing is available but with missing values. 
 
 ![Screenshot](figures/dataset.png)
 
