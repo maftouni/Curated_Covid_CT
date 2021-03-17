@@ -11,6 +11,13 @@ The number of frames for the COVID-19 and Normal classes and available metadata 
 The average age is 51.2, 52.8, and 64.3 for COVID-19, Normal, and CAP cases, respectively. The country and gender distributions on the whole dataset are shown in the following Figure.
 ![Screenshot](figures/national_dist.png)
 
+
+COVID-19 meta-data:
+```
+meta_data_covid.xlsx
+```
+
+
 ### References  
 *	J. Zhao, Y. Zhang, X. He, and P. Xie, "COVID-CT-Dataset: a CT scan dataset about COVID-19," arXiv preprint arXiv:2003.13865, 2020.
 *	P. Afshar et al., "COVID-CT-MD: COVID-19 Computed Tomography (CT) Scan Dataset Applicable in Machine Learning and Deep Learning," arXiv preprint arXiv:2009.14623, 2020.
